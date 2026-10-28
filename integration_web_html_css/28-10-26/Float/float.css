@@ -1,0 +1,72 @@
+p{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.bloc-principal{
+    position: relative;
+}
+
+.bloc-gauche{
+    float: left;
+    width: 50%;
+    background-color: rgb(232, 218, 245);
+}
+
+.bloc-droite{
+    float: right;
+    width: 50%;
+    background-color: rgb(218, 241, 245);
+}
+
+
+
+
+.bloc-principal2{
+
+    position: relative;
+}
+
+.bloc-gauche2{
+    position: absolute;
+    z-index:1;
+    top: 50px;
+    width: 260px;
+    height: 150px;
+    background-color: rgb(232, 218, 245);
+}
+
+.bloc-droite2{
+    position: absolute;
+    top: 120px;
+    left: 130px;
+    z-index:2;
+    width: 170px;
+    height: 50px;
+    background-color: rgb(218, 241, 245);
+}
+
+.bloc-principal3{
+
+    position: relative;
+}
+
+.bloc-gauche3{
+    position: absolute;
+    z-index:3;
+
+
+    background-color: rgb(232, 218, 245);
+}
+
+.bloc-droite3{
+    position: absolute;
+    top: 200px;
+
+    z-index:3;
+
+    background-color: rgb(218, 241, 245);
+}

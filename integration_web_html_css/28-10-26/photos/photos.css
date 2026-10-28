@@ -1,0 +1,27 @@
+.bloc-principal{
+
+    position: relative;
+    width: 100%;
+}
+
+.bloc-gauche{
+    float: left;
+    width: 73%;
+}
+
+.bloc-droite{
+    float: right;
+    width: 25%;
+    display: grid;
+    grid-template-columns: 3fr;
+    gap: 5%;
+}
+
+img{
+    width: 100%;
+}
+
+.image1{
+    height: 100%;
+    margin: 0px;
+}

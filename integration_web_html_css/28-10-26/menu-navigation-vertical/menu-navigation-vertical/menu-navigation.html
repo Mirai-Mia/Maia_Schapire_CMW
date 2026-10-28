@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu de navigation</title>
+  <meta name="description" content="Menu de navigation">
+
+   <style>
+      html {
+         background-color: #f3f3f3;
+      }
+
+      nav {
+         background-color: #3a3a3a;
+         margin: 30px;
+         border-radius: 10px;
+         width: 300px;
+         box-shadow: 5px 5px 30px rgb(139, 139, 139);
+      }
+
+      ul {
+         list-style-type: none;
+         padding-left: 0;
+      }
+
+      a {
+         color: white;
+         text-decoration: none;
+         display: block;
+         padding: 15px;
+      }
+
+      a img {
+         width: 20px;
+         height: 20px;
+         padding-right: 10px;
+      }
+
+      a img, a span {
+         display: inline-block;
+         vertical-align: middle; 
+      }
+
+      nav ul li:nth-child(1) {
+         border-top-left-radius: 10px;
+         border-top-right-radius: 10px;
+      }
+
+      nav ul li:nth-last-child(1) {
+         border-bottom-left-radius: 10px;
+         border-bottom-right-radius: 10px;
+      }
+
+      ul li ul {
+         display: none;
+      }
+
+      li:hover {
+         background-color: #242424;
+      }
+
+      li:hover a {
+         color: orangered;
+         font-weight: bold;
+      }
+
+      li:hover ul {
+         display: block;
+      }
+
+      li:hover ul li a {
+         font-weight: normal;
+         color: rgb(209, 120, 88);
+      }
+
+      li:hover ul li:hover a {
+         font-weight: bold;
+      }
+
+      .ligne{
+         position: relative;
+      }
+
+   </style>
+</head>
+
+<body>
+
+   <div>
+      <!-- Menu de navigation -->
+      <nav>
+         <ul class="ligne">
+            <!-- Elément 1 -->
+            <li class="element1">
+               <a href="#">
+                  <img src="code.png" alt="Cours d'informatique"/>
+                  <span>Cours d'informatique</span>
+               </a>
+               <ul>
+                  <li><a href="#">Intégration web</a></li>
+                  <li><a href="#">Javascript</a></li>
+                  <li><a href="#">PHP</a></li>
+                  <li><a href="#">Base de données</a></li>
+                  <li><a href="#">CMS</a></li>
+               </ul>
+            </li>
+             <!-- Elément 2 -->
+            <li>
+               <a href="#">
+                  <img src="play.png" alt="Cours de multimédia"/>
+                  Cours de multimédia
+               </a>
+               <ul>
+                  <li><a href="#">UX Design</a></li>
+                  <li><a href="#">Retouche numérique</a></li>
+                  <li><a href="#">Illustration</a></li>
+               </ul>
+            </li>
+             <!-- Elément 3 -->
+            <li>
+               <a href="#">
+                  <img src="write.png" alt="Cours de contenu éditorial"/>
+                  Cours de contenu éditorial
+               </a>
+               <ul>
+                  <li><a href="#">Expression et communication</a></li>
+                  <li><a href="#">Contenu éditorial</a></li>
+                  <li><a href="#">Réseaux sociaux</a></li>
+               </ul>
+            </li>
+         </ul>
+      </nav>
+   </div>
+
+</body>
+</html>
