@@ -1,0 +1,55 @@
+body{
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+  border-collapse: collapse;
+  width: 600px;
+}
+
+td{
+  border: 1px solid black;
+  min-width: 40px;
+  padding: 8px;
+  text-align: center;
+
+}
+
+.result{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(213, 223, 223);
+}
+.result:hover{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(229, 218, 227);
+}
+
+.eval{
+    font-weight: 600;
+}
+
+.sem1{
+    background-color: rgb(158, 158, 237);
+    font-weight: 600;
+}
+
+.mat1{
+    background-color: rgb(210, 207, 237);
+}
+
+.sem2{
+    background-color: rgb(158, 237, 216);
+    font-weight: 600;
+}
+
+.mat2{
+    background-color: rgb(218, 240, 236);
+}
+
+.moyenne {
+    background-color: blanchedalmond;
+    font-weight: 600;
+}
